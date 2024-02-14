@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Card</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?w=900&t=st=1707929677~exp=1707930277~hmac=64274a07a51b58e53e3cec198f39760b5a605fa3db1efc1f21321daee275d9b2'); /* Cute relevant background */
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-height: fit-content;
+            font-size: larger;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .card {
+            width: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow added */
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .heartBeat {
+            display: inline-block;
+            position: relative;
+        }
+
+        .heart {
+            font-size: 150px;
+            color: #e00;
+            animation: beat 0.75s infinite alternate;
+            transform-origin: center;
+        }
+
+        @keyframes beat {
+            0% {
+                transform: scale(0.5);
+            }
+            100% {
+                transform: scale(1.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card shadow">
+            <h1 class="text-center">Happy Valentine's Day!</h1>
+            <p class="text-left px-3">
+                Hello Della,<br />
+                I hope you are doing well. This is my first attempt at
+                writing something for Valentine's Day, so please spare me
+                the critics. I'm neither a writer nor a literature lover
+                like you, but I love when you tell me about the books you
+                are reading and how cringy the romance is or how they just
+                started banging in 60 pages. You have become a very special
+                part of my daily life, and I can't even imagine how this was
+                not my life not so far ago. We started off with a random
+                late-night conversation, neither of us expecting that
+                something so small would lead to us as of today. And then
+                the talks started, and I got to know, and my god the
+                similarities. Like, can you imagine?
+                <br />
+                Is this for real?
+                <br />
+                Really?
+                <br />
+                Like how is this even possible?
+                <br />
+                How do we have so much in common yet we are so different?
+                <br />
+                I can't even wrap my head around it. But I'm very grateful
+                for it.
+                <br /><br />
+                Well, talking about us, we did go through some ups and
+                downs, sometimes as small as a pebble on a road to sometimes
+                as big as to create a wall between us. But yet here we are
+                together, and it's just the start. I swear I'm thinking so
+                hard to write it right now but guess what......... I can't
+                think hehe, but ig it's better to not use my head and just
+                write whatever coz guess what, you have made me feel
+                comfortable enough that I can just be. And I hope that I
+                make you feel the same way. I want to say I love you day
+                after day, I want to hear it back from you, I want to see
+                you someday, see you in person, talk to you in person, enjoy
+                more music with you, and just wanna be with you.
+                <br /><br />
+                P.S: I don't know what I'm high while writing on maybe it's
+                you. I don't even know if the flow makes sense, but I just
+                wrote whatever came to me while writing.
+            </p>
+
+            <div class="heartBeat text-center">
+                <svg class="heart " viewBox="0 0 24 24" fill="red" width="50px" height="50px">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+                <p class="mt-2" style="font-size: 20px;">I love you Della</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
